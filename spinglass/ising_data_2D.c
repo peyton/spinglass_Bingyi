@@ -21,9 +21,9 @@ void init_ising(IsingData *ising, struct RndGen * rnd_gen){
 															the first element of each row in the array space
 															originally allocated */
 
-			for (y = 0; y < 1; y++)
+			for (y = 0; y < L; y++)
 				{
-				Arr3D[z][y] = space + (z*(L * L) + y*1);
+				Arr3D[z][y] = space + (z*L + y);
 				}
 			}
 	ising->lattice_site=Arr3D;    
@@ -52,9 +52,9 @@ void init_ising(IsingData *ising, struct RndGen * rnd_gen){
 															the first element of each row in the array space
 															originally allocated */
 
-			for (y = 0; y < 1; y++)
+			for (y = 0; y < L; y++)
 				{
-				Arr3D[z][y] = space + (z*(L * L) + y*1);
+				Arr3D[z][y] = space + (z*L + y);
 				}
 			}
 	ising->x_interaction=Arr3D;    
@@ -83,9 +83,9 @@ void init_ising(IsingData *ising, struct RndGen * rnd_gen){
 															the first element of each row in the array space
 															originally allocated */
 
-			for (y = 0; y < 1; y++)
+			for (y = 0; y < L; y++)
 				{
-				Arr3D[z][y] = space + (z*(L * L) + y*1);
+				Arr3D[z][y] = space + (z*L + y);
 				}
 			}
 	ising->y_interaction=Arr3D;    
@@ -114,9 +114,9 @@ void init_ising(IsingData *ising, struct RndGen * rnd_gen){
 															the first element of each row in the array space
 															originally allocated */
 
-			for (y = 0; y < 1; y++)
+			for (y = 0; y < L; y++)
 				{
-				Arr3D[z][y] = space + (z*(L * L) + y*1);
+				Arr3D[z][y] = space + (z*L + y);
 				}
 			}
 			ising->z_interaction=Arr3D;    

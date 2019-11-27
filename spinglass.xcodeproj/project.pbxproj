@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9CAFCA09238F27AE007BBBB9 /* rnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFCA01238F27AD007BBBB9 /* rnd.c */; };
-		9CAFCA0A238F27AE007BBBB9 /* ising_data_2D2.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFCA02238F27AD007BBBB9 /* ising_data_2D2.c */; };
 		9CAFCA0C238F27AE007BBBB9 /* ising.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFCA04238F27AD007BBBB9 /* ising.c */; };
 		9CAFCA0D238F27AE007BBBB9 /* measure_2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFCA06238F27AD007BBBB9 /* measure_2D.c */; };
+		9CAFCA10238F2C93007BBBB9 /* ising_data_2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFCA03238F27AD007BBBB9 /* ising_data_2D.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -142,10 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CAFCA10238F2C93007BBBB9 /* ising_data_2D.c in Sources */,
 				9CAFCA0C238F27AE007BBBB9 /* ising.c in Sources */,
 				9CAFCA09238F27AE007BBBB9 /* rnd.c in Sources */,
 				9CAFCA0D238F27AE007BBBB9 /* measure_2D.c in Sources */,
-				9CAFCA0A238F27AE007BBBB9 /* ising_data_2D2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
